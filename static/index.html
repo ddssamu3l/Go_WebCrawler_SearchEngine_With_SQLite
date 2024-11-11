@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Search Engine</title>
+		<meta charset="utf-8">
+	</head>
+	<body>
+        <h1>USFCA.edu Search Engine</h1>
+        <!-- the action of the form redirects the webpage to the link inside of the action, and carries the form's content as specified by method="get" -->
+        <!-- The form contains a single piece of data called "name", and it can be accessed when the form is submitted -->
+		<form action="/search" method="get"> 
+			<fieldset>
+                <label for="searchword">Search for: </label>
+                <input type="text" id="searchword" name="searchword" placeholder="enter a keyword" required />
+				<input type="submit" value="Search" />
+			</fieldset>
+		</form>
+	</body>
+</html>
+
+
